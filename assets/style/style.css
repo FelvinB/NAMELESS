@@ -1,0 +1,10 @@
+body{
+    background-color: aqua;
+}
+.felv{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-shadow: 10px 10px 10px 10px;
+    border: 1px red solid;
+}
