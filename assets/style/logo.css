@@ -1,5 +1,6 @@
-.name-logo{
-    width: 10px;
-    border: 5px;
-    border-radius: 5px;
+.name-logo img{
+    width: 100px;
+    height: auto;
+    border: 1px;
+    border-radius: 10px;
 }

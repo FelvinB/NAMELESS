@@ -41,7 +41,9 @@
         top: 60px;
         left: 0;
         right: 0;
+        padding-top: 50px;
         padding-bottom: 20px;
+        
         transition: all 0.2s ease-in-out;
         text-align: center;
       }
@@ -49,7 +51,11 @@
         display: block;
 
       }
-      .menu-toggle:checked ~ .nav-links{display: flex; }
+      .menu-toggle:checked ~ .nav-links{
+        display: flex; 
+        margin-top: 20px;
+        
+    }
      
     #header{
         background: skyblue;
