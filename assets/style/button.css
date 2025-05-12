@@ -1,7 +1,7 @@
 .primary-button{
     margin-top: 200px;
-    background: red;
-    color: skyblue;
+    background: rgb(10, 6, 6);
+    color: rgb(236, 241, 243);
     border: 1px solid transparent;
     padding: 12px 18px;
     border-radius: 5px;
@@ -9,12 +9,19 @@
     transition: 0.2 ease-in-out;
     text-decoration: none;
 }
+.primary-button:hover {
+    background: rgb(39, 34, 34);
+  }
 .secondary-button{
-    background: skyblue;
-    color: red;
+    background: rgb(220, 228, 231);
+    color: rgb(10, 2, 2);
     border: 1px solid transparent;
     padding: 12px 18px;
     border-radius: 5px;
     cursor: pointer ;
     transition: 0.2 ease-in-out;
 }
+
+.secondary-button:hover {
+    background: rgb(193, 199, 201);
+  }
