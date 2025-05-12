@@ -30,6 +30,14 @@
     flex-direction: column;
     gap: 12px;
   }
+  .btn-group a{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    text-decoration: none;
+    color: white;
+    
+  }
 @media only screen and (max-width: 768px){
     #hotel-banner{
         flex-direction: column-reverse;

@@ -3,6 +3,8 @@
 @import "logo.css";
 @import "hotel-banner.css";
 @import "footer.css";
+@import "contact.css";
+
 *{
     margin: 0;
     padding: 0;
