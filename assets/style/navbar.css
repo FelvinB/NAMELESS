@@ -1,5 +1,5 @@
 #header{
-    background: skyblue;
+    background: black;
 }
 .navbar{
     display: flex;
@@ -17,13 +17,16 @@
 }
 .nav-links a{
     text-decoration: none;
-    color: red;
+    color: white;
 }
+
+
 
 .menu-btn{
     display: none;
     font-size: 24px;
     cursor: pointer;
+    color: white;
 }
 .menu-toggle {
     display: none;
@@ -37,7 +40,7 @@
         width: 100%;
         flex-direction: column;
         position: absolute;
-        background-color: skyblue;
+        background-color: black;
         top: 60px;
         left: 0;
         right: 0;
@@ -58,7 +61,7 @@
     }
      
     #header{
-        background: skyblue;
+        background: black;
     }
 }
 
@@ -72,7 +75,7 @@
         width: 100%;
         flex-direction: column;
         position:absolute;
-        background-color: skyblue;
+        background-color: black;
         top: 60px;
         left: 0;
         right: 0;
