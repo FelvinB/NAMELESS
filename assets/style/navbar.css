@@ -29,7 +29,7 @@
     display: none;
 }
 
-@media only screen and (max-width: 760px){
+@media only screen and (max-width: 768px){
    
     .nav-links {
         
@@ -61,3 +61,31 @@
         background: skyblue;
     }
 }
+
+@media only screen and (max-width: 1024px) {
+    .navbar {
+      padding: 24px 24px;
+    }
+    .nav-links {
+        
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        position:absolute;
+        background-color: skyblue;
+        top: 60px;
+        left: 0;
+        right: 0;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        margin-top: 20px;
+        transition: all 0.2s ease-in-out;
+        text-align: center;
+      }
+    .menu-btn{
+        display: block;
+    }
+    .menu-toggle:checked~.nav-links{
+        display: flex;
+    }
+  }
