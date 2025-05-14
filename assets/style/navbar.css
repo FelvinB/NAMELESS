@@ -12,9 +12,15 @@
     gap: 16px;
 }
 .nav-links li{
-    list-style: none;
-    
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    list-style: none;  
+    background-color: black;
 }
+.nav-links li:hover {
+    background: rgb(193, 199, 201);
+  }
 .nav-links a{
     text-decoration: none;
     color: white;

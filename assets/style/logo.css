@@ -2,5 +2,9 @@
     width: 100px;
     height: auto;
     border: 1px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
+.name-logo :hover {
+    background: rgb(235, 221, 221);
+    border-radius: 5px;
+  }
