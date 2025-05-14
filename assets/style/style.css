@@ -4,7 +4,8 @@
 @import "hotel-banner.css";
 @import "footer.css";
 @import "contact.css";
-@IMPORT "services.css";
+@import "services.css";
+@import "hotel.css";
 *{
     margin: 0;
     padding: 0;
