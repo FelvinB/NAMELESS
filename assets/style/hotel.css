@@ -4,6 +4,7 @@
     border-radius: 16px;
     overflow: hidden;
     text-align: center;
+    
   }
   
   .hotel-header h3 {
@@ -12,22 +13,28 @@
   }
   
   .hotel-header img {
-    width: 100%;
+    margin-top: 10px;
+    width: 90%;
     object-fit: cover;
     text-align: center;
+    
   }
   .hotel-header img:hover {
     width: 100%;
-    background: rgb(39, 34, 34);
+    background: black;
     transition: ease-in-out 1s;
+    border-radius: 16px;
   }
   
   .hotel-body {
+    margin-top: 10px;
     padding: 0 16px;
     text-align: center;
   }
   
-  .hotel-footer {
+  .info p{
+    margin-top: 10px;
     padding: 14px 16px;
     text-align: center;
+    font-size: large;
   }
