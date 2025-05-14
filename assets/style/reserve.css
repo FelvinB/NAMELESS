@@ -29,6 +29,7 @@
     margin-bottom: 30px;
     background-color: darkgray;
   }
+  
   .reserve-button{
     align-content: center;
     margin-top: 100px;
@@ -49,6 +50,13 @@
   }
 
   @media only screen and (max-width: 768px) {
+    .hotel-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+
+  @media only screen and (max-width: 1024px) {
     .hotel-container {
       flex-direction: column;
       text-align: center;

@@ -1,10 +1,11 @@
 .name-logo img{
-    width: 100px;
+    width: 90px;
     height: auto;
     border: 1px;
     border-radius: 5px;
 }
 .name-logo :hover {
-    background: rgb(235, 221, 221);
+    width: 100px;
     border-radius: 5px;
+    
   }
