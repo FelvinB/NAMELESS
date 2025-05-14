@@ -19,7 +19,7 @@
     background-color: black;
 }
 .nav-links li:hover {
-    background: rgb(193, 199, 201);
+    background:darkgray;
   }
 .nav-links a{
     text-decoration: none;

@@ -1,23 +1,33 @@
-.card {
+.hotel {
     width: 100%;
     background: #FFFFFF;
     border-radius: 16px;
     overflow: hidden;
+    text-align: center;
   }
   
-  .card-header h3 {
+  .hotel-header h3 {
     padding: 14px 16px;
+    text-align: center;
   }
   
-  .card-header img {
+  .hotel-header img {
     width: 100%;
     object-fit: cover;
+    text-align: center;
+  }
+  .hotel-header img:hover {
+    width: 100%;
+    background: rgb(39, 34, 34);
+    transition: ease-in-out 1s;
   }
   
-  .card-body {
+  .hotel-body {
     padding: 0 16px;
+    text-align: center;
   }
   
-  .card-footer {
+  .hotel-footer {
     padding: 14px 16px;
+    text-align: center;
   }

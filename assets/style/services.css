@@ -1,6 +1,7 @@
 #services {
     background: white;
     padding: 72px 20px;
+    text-align: center;
   }
   
   .services-container {
@@ -17,16 +18,19 @@
   .services-heading h2 {
     font-size: 32px;
     margin-bottom: 14px;
+    text-align: center;
   }
   
   
-  .card-container {
+  .hotel-container {
     display: flex;
+    text-align: center;
     gap: 24px;
   }
   
   @media only screen and (max-width: 768px) {
-    .card-container {
+    .hotel-container {
       flex-direction: column;
+      text-align: center;
     }
   }
