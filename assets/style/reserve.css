@@ -1,6 +1,7 @@
-#reserve {
+   #reserve {
+    margin-top: 100px;
     background: white;
-    padding: 72px 20px;
+    padding: 40px 20px;
     text-align: center;
   }
   
@@ -14,27 +15,39 @@
     text-align: center;
   }
   
-  .reserve-heading p {
-    font-size: x-large;
-    text-align: center;
-  }
-  
   .reserve-heading h2 {
     border: solid 5px black;
     background-color: black;
     color: white;
     font-size: 32px;
-    margin-bottom: 14px;
     text-align: center;
   }
-  
+
+  .reserve-heading p {
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: darkgray;
+  }
+  .reserve-button{
+    align-content: center;
+    margin-top: 100px;
+    background:white;
+    color: black;
+    border: 1px solid black;
+    padding: 12px 18px;
+    border-radius: 5px;
+    cursor: pointer ;
+    transition: 0.2 ease-in-out;
+    text-decoration: none;
+  }
   
   .hotel-container {
     display: flex;
     text-align: center;
     gap: 24px;
   }
-  
+
   @media only screen and (max-width: 768px) {
     .hotel-container {
       flex-direction: column;

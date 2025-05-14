@@ -1,0 +1,20 @@
+.under{
+    text-decoration: line-through;
+    color: red;
+}
+
+.about-header img {
+    border: 5px solid black;
+    border-radius: 16px;
+    margin-top: 10px;
+    width: 90%;
+    object-fit: cover;
+    text-align: center;
+}
+
+.about-body {
+    margin-top: 10px;
+    padding: 0 16px;
+    text-align: center;
+    font-size: large;
+  }
